@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 962 125.18">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #787678;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 1.79px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #4d3818;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        font-size: 14px;
+      }
+
+      .cls-4, .cls-8 {
+        font-family: KozGoPr6N-Regular-83pv-RKSJ-H, 'Kozuka Gothic Pr6N';
+      }
+
+      .cls-9 {
+        letter-spacing: .25em;
+      }
+
+      .cls-10, .cls-5 {
+        font-family: GothicA1-Regular, 'Gothic A1';
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #4d3818;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2-2" data-name="レイヤー 2">
+    <line class="cls-3" x1="42" y1="119.78" x2="906" y2="119.78"/>
+    <rect class="cls-6" x="182.18" y="115.96" width="7.64" height="7.64" transform="translate(139.18 -96.44) rotate(45)"/>
+    <rect class="cls-6" x="38.18" y="115.96" width="7.64" height="7.64" transform="translate(97 5.38) rotate(45)"/>
+    <line class="cls-1" x1="42" y1="101.78" x2="42" y2="77.78"/>
+    <line class="cls-2" x1="186" y1="101.78" x2="186" y2="65.78"/>
+    <line class="cls-2" x1="474" y1="101.78" x2="474" y2="65.78"/>
+    <rect class="cls-6" x="326.18" y="115.96" width="7.64" height="7.64" transform="translate(181.35 -198.26) rotate(45)"/>
+    <rect class="cls-6" x="470.18" y="115.96" width="7.64" height="7.64" transform="translate(223.53 -300.09) rotate(45)"/>
+    <line class="cls-2" x1="330" y1="101.78" x2="330" y2="77.78"/>
+    <text class="cls-5" transform="translate(0 47.78)"><tspan x="0" y="0">デスクトップ</tspan><tspan x="14" y="21">リサーチ</tspan></text>
+    <text class="cls-7" transform="translate(158 12.09)"><tspan class="cls-10"><tspan x="0" y="0">ペルソナ</tspan></tspan><tspan class="cls-8"><tspan x="-3.53" y="21.23">UIU</tspan><tspan class="cls-9" x="19.49" y="21.23">X</tspan><tspan x="31.53" y="21.23">方針</tspan></tspan><tspan class="cls-10" x="-28" y="42.11">コンセプトの</tspan><tspan class="cls-8" x="56" y="42.34">設定</tspan></text>
+    <text class="cls-4" transform="translate(432 56.23)"><tspan x="0" y="0">機能要件定義</tspan></text>
+    <rect class="cls-6" x="758.18" y="115.96" width="7.64" height="7.64" transform="translate(307.88 -503.73) rotate(45)"/>
+    <line class="cls-2" x1="762" y1="101.78" x2="762" y2="65.78"/>
+    <text class="cls-5" transform="translate(734 36.44)"><tspan x="0" y="0">トンマナ</tspan><tspan x="-35" y="21">ビジュアルデザイン</tspan></text>
+    <text class="cls-7" transform="translate(287.49 47.62)"><tspan class="cls-10" x="0" y="0">アイデア</tspan><tspan class="cls-8" x="56" y=".23">検討</tspan><tspan class="cls-10"><tspan x="27.91" y="20.89">CJM</tspan></tspan></text>
+    <rect class="cls-6" x="614.18" y="115.96" width="7.64" height="7.64" transform="translate(265.71 -401.91) rotate(45)"/>
+    <line class="cls-2" x1="618" y1="101.78" x2="618" y2="77.78"/>
+    <text class="cls-5" transform="translate(561.95 69.57)"><tspan x="0" y="0">ワイヤーフレーム</tspan></text>
+    <text class="cls-5" transform="translate(850 69.57)"><tspan x="0" y="0">ブラッシュアップ</tspan></text>
+    <rect class="cls-6" x="902.18" y="115.96" width="7.64" height="7.64" transform="translate(350.06 -605.56) rotate(45)"/>
+    <line class="cls-2" x1="906" y1="101.78" x2="906" y2="77.78"/>
+  </g>
+</svg>

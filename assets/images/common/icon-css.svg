@@ -1,0 +1,31 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_208_254" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="6" width="21" height="23">
+<path d="M4.81396 6.20621H24.1827V28.1683H4.81396V6.20621Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_208_254)">
+<path d="M14.4882 28.1672L6.58446 25.9721L4.82324 6.20712L24.1769 6.20682L22.4145 25.9688L14.4886 28.1669L14.4882 28.1672Z" fill="#0277BD"/>
+</g>
+<path d="M20.9052 24.7108L22.4119 7.82332L14.5005 7.82309V26.4867L20.9052 24.7106V24.7108Z" fill="#039BE5"/>
+<path d="M8.86121 15.1538L9.07833 17.5773H14.5004V15.1538H8.86121Z" fill="#EBEBEB"/>
+<path d="M8.4248 10.2468L8.64502 12.6712H14.5005V10.2468H8.4248Z" fill="#EBEBEB"/>
+<path d="M14.5004 21.4491L14.4898 21.4521L11.7914 20.7227L11.6188 18.7895H9.18652L9.52599 22.596L14.4891 23.9744L14.5004 23.9713V21.4491Z" fill="#EBEBEB"/>
+<mask id="mask1_208_254" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="0" width="4" height="5">
+<path d="M9.37671 0.835861H12.3154V4.52422H9.37671V0.835861Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_208_254)">
+<path d="M9.37817 0.835861H12.3128V2.06368H10.6053V3.2915H12.3128V4.51924H9.37817V0.835861Z" fill="black"/>
+</g>
+<mask id="mask2_208_254" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="12" y="0" width="4" height="5">
+<path d="M12.895 0.835861H15.853V4.58222H12.895V0.835861Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_208_254)">
+<path d="M12.8997 0.835892H15.8342V1.90361H14.1272V2.1171H15.8342V4.57266H12.8997V3.45171H14.6075V3.23806H12.8997V0.835892Z" fill="black"/>
+</g>
+<mask id="mask3_208_254" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="16" y="0" width="4" height="5">
+<path d="M16.4139 0.835861H19.3719V4.58222H16.4139V0.835861Z" fill="white"/>
+</mask>
+<g mask="url(#mask3_208_254)">
+<path d="M16.4214 0.835892H19.356V1.90361H17.6481V2.1171H19.356V4.57266H16.4214V3.45171H18.1284V3.23806H16.4214V0.835892Z" fill="black"/>
+</g>
+<path d="M20.1245 15.154L20.5615 10.2468H14.4922V12.6712H17.9062L17.6862 15.154H14.4922V17.5775H17.476L17.1945 20.7214L14.4922 21.4516V23.9731L19.4592 22.5962L19.4956 22.1863L20.0653 15.8044L20.1245 15.154Z" fill="white"/>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #f29600;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: .05px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #827f85;
+      }
+
+      .cls-5 {
+        opacity: .5;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.68px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="0" width="24" height="24" rx="5.34" ry="5.34"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_33" data-name="レイヤー 33">
+    <g class="cls-5">
+      <g class="cls-6">
+        <g>
+          <path class="cls-2" d="M0,16.48h24"/>
+          <path class="cls-2" d="M0,12h24"/>
+          <path class="cls-2" d="M0,7.52h24"/>
+          <path class="cls-2" d="M16.48,24V0"/>
+          <path class="cls-2" d="M12,24V0"/>
+          <path class="cls-2" d="M7.52,24V0"/>
+          <path class="cls-2" d="M24,24L0,0"/>
+          <path class="cls-2" d="M0,24L24,0"/>
+          <rect class="cls-2" x="1.57" y="1.57" width="20.86" height="20.86"/>
+          <circle class="cls-2" cx="12" cy="12" r="4.48"/>
+          <circle class="cls-2" cx="12" cy="12" r="6.3"/>
+          <circle class="cls-2" cx="12" cy="12" r="10.43"/>
+        </g>
+      </g>
+      <path class="cls-4" d="M18.66.26c2.8,0,5.08,2.28,5.08,5.08v13.31c0,2.8-2.28,5.08-5.08,5.08H5.34c-2.8,0-5.08-2.28-5.08-5.08V5.34C.26,2.54,2.54.26,5.34.26h13.31M18.66.01H5.34C2.4.01.01,2.4.01,5.34v13.31c0,2.94,2.39,5.33,5.33,5.33h13.31c2.94,0,5.33-2.39,5.33-5.33V5.34C23.99,2.4,21.6.01,18.66.01h0Z"/>
+    </g>
+  </g>
+  <g id="comment">
+    <path class="cls-3" d="M21.25,10.61c0-4.16-4.14-7.54-9.25-7.54S2.75,6.45,2.75,10.61c0,3.92,3.68,7.14,8.38,7.5.21.02.37.19.37.4v2.96c0,.09.11.14.17.07l3.44-3.47c.35-.35.77-.6,1.22-.8,2.93-1.27,4.92-3.77,4.92-6.66Z"/>
+  </g>
+</svg>

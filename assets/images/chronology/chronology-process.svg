@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1063.95 188.51">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-6, .cls-5 {
+        fill: #0097dd;
+      }
+
+      .cls-1, .cls-7 {
+        font-family: NotoSansJP-Regular, 'Noto Sans JP';
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-8 {
+        stroke: #787678;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8, .cls-10 {
+        stroke-width: 1.79px;
+      }
+
+      .cls-11 {
+        font-family: NotoSansJP-Medium, 'Noto Sans JP';
+        font-variation-settings: 'wght' 500;
+      }
+
+      .cls-2 {
+        font-weight: 500;
+      }
+
+      .cls-12, .cls-4 {
+        fill: #787678;
+      }
+
+      .cls-13, .cls-4, .cls-5 {
+        font-family: GothicA1-Regular, 'Gothic A1';
+      }
+
+      .cls-14 {
+        font-family: GothicA1-Medium, 'Gothic A1';
+      }
+
+      .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-9, .cls-10 {
+        stroke: #0097dd;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <line class="cls-9" x1="42" y1="102.09" x2="1050" y2="102.09"/>
+    <circle class="cls-12" cx="42" cy="102.09" r="5.4"/>
+    <circle class="cls-12" cx="474" cy="102.09" r="5.4"/>
+    <rect class="cls-6" x="182.18" y="98.27" width="7.64" height="7.64" transform="translate(126.67 -101.62) rotate(45)"/>
+    <line class="cls-8" x1="42" y1="84.09" x2="42" y2="60.09"/>
+    <line class="cls-10" x1="186" y1="84.09" x2="186" y2="48.09"/>
+    <line class="cls-8" x1="474" y1="84.09" x2="474" y2="48.09"/>
+    <rect class="cls-6" x="326.18" y="98.27" width="7.64" height="7.64" transform="translate(168.84 -203.44) rotate(45)"/>
+    <line class="cls-10" x1="330" y1="84.09" x2="330" y2="60.09"/>
+    <text class="cls-4" transform="translate(0 30.09)"><tspan x="0" y="0">プロトタイプ</tspan><tspan x="7.03" y="21">UIデザイン</tspan></text>
+    <text class="cls-4" transform="translate(432 12.09)"><tspan x="0" y="0">プロトタイプ</tspan><tspan x="7.03" y="21">UIデザイン</tspan></text>
+    <text class="cls-5" transform="translate(165 12.09)"><tspan x="0" y="0">テスト</tspan><tspan x="-35" y="21">ブラッシュアップ</tspan></text>
+    <g>
+      <rect class="cls-6" x="13.02" y="161.7" width="11.35" height="11.35" transform="translate(123.82 35.81) rotate(45)"/>
+      <text class="cls-2" transform="translate(31.34 174.17)"><tspan class="cls-11" x="0" y="0">携</tspan><tspan class="cls-14" x="14" y="-.15">わった</tspan><tspan class="cls-11" x="56" y="0">箇所</tspan></text>
+    </g>
+    <rect class="cls-6" x="758.18" y="98.27" width="7.64" height="7.64" transform="translate(295.37 -508.91) rotate(45)"/>
+    <line class="cls-10" x1="762" y1="84.09" x2="762" y2="48.09"/>
+    <line class="cls-10" x1="1050" y1="84.09" x2="1050" y2="48.09"/>
+    <text class="cls-5" transform="translate(720 30.09)"><tspan x="0" y="0">コーディング</tspan></text>
+    <text class="cls-3" transform="translate(294.95 30.16)"><tspan class="cls-7" x="0" y="0">詳細</tspan><tspan class="cls-13" x="28" y="-.23">な</tspan><tspan class="cls-7" x="42" y="0">情報</tspan><tspan class="cls-13" x="14" y="20.77">の</tspan><tspan class="cls-7" x="28" y="21">選定</tspan></text>
+    <rect class="cls-6" x="1046.18" y="98.27" width="7.64" height="7.64" transform="translate(379.73 -712.56) rotate(45)"/>
+    <text class="cls-1" transform="translate(1035.95 39.09)"><tspan x="0" y="0">展示</tspan></text>
+    <rect class="cls-6" x="614.18" y="98.27" width="7.64" height="7.64" transform="translate(253.2 -407.09) rotate(45)"/>
+    <line class="cls-10" x1="618" y1="84.09" x2="618" y2="60.09"/>
+    <text class="cls-5" transform="translate(596.95 30.04)"><tspan x="0" y="0">テスト</tspan><tspan x="-35" y="21">ブラッシュアップ</tspan></text>
+    <rect class="cls-6" x="902.18" y="98.27" width="7.64" height="7.64" transform="translate(337.55 -610.74) rotate(45)"/>
+    <line class="cls-10" x1="906" y1="84.09" x2="906" y2="60.09"/>
+    <text class="cls-5" transform="translate(885 30.09)"><tspan x="0" y="0">テスト</tspan><tspan x="-35" y="21">ブラッシュアップ</tspan></text>
+  </g>
+</svg>

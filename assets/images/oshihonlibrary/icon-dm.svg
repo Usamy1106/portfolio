@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #f29600;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: .05px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #827f85;
+      }
+
+      .cls-5 {
+        opacity: .5;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.47px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-.01" y="0" width="24" height="24" rx="5.34" ry="5.34"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_33" data-name="レイヤー 33">
+    <g class="cls-5">
+      <g class="cls-6">
+        <g>
+          <path class="cls-2" d="M-.01,16.48h24"/>
+          <path class="cls-2" d="M-.01,12h24"/>
+          <path class="cls-2" d="M-.01,7.52h24"/>
+          <path class="cls-2" d="M16.46,24V0"/>
+          <path class="cls-2" d="M11.99,24V0"/>
+          <path class="cls-2" d="M7.51,24V0"/>
+          <path class="cls-2" d="M23.99,24L-.01,0"/>
+          <path class="cls-2" d="M-.01,24L23.99,0"/>
+          <rect class="cls-2" x="1.56" y="1.57" width="20.86" height="20.86"/>
+          <circle class="cls-2" cx="11.99" cy="12" r="4.48"/>
+          <circle class="cls-2" cx="11.99" cy="12" r="6.3"/>
+          <circle class="cls-2" cx="11.99" cy="12" r="10.43"/>
+        </g>
+      </g>
+      <path class="cls-4" d="M18.64.26c2.8,0,5.08,2.28,5.08,5.08v13.31c0,2.8-2.28,5.08-5.08,5.08H5.33c-2.8,0-5.08-2.28-5.08-5.08V5.34C.25,2.54,2.53.26,5.33.26h13.31M18.64.01H5.33C2.39.01,0,2.4,0,5.34v13.31C0,21.6,2.39,23.99,5.33,23.99h13.31c2.94,0,5.33-2.39,5.33-5.33V5.34C23.98,2.4,21.59.01,18.64.01h0Z"/>
+    </g>
+  </g>
+  <g id="setting">
+    <g>
+      <path class="cls-3" d="M12.22,21.73l7.79-16.68L2.34,10.2l7.09,3.92,2.79,7.61Z"/>
+      <path class="cls-3" d="M9.44,14.12l10.36-8.88"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #f29600;
+      }
+
+      .cls-2 {
+        stroke: #827f85;
+        stroke-miterlimit: 10;
+        stroke-width: .05px;
+      }
+
+      .cls-5 {
+        opacity: .5;
+      }
+
+      .cls-3 {
+        stroke: #f29600;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="0" width="24" height="24" rx="5.34" ry="5.34"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_33" data-name="レイヤー 33">
+    <g class="cls-5">
+      <g class="cls-6">
+        <g>
+          <path class="cls-2" d="M0,16.48h24"/>
+          <path class="cls-2" d="M0,12h24"/>
+          <path class="cls-2" d="M0,7.52h24"/>
+          <path class="cls-2" d="M16.48,24V0"/>
+          <path class="cls-2" d="M12,24V0"/>
+          <path class="cls-2" d="M7.52,24V0"/>
+          <path class="cls-2" d="M24,24L0,0"/>
+          <path class="cls-2" d="M0,24L24,0"/>
+          <rect class="cls-2" x="1.57" y="1.57" width="20.86" height="20.86"/>
+          <circle class="cls-2" cx="12" cy="12" r="4.48"/>
+          <circle class="cls-2" cx="12" cy="12" r="6.3"/>
+          <circle class="cls-2" cx="12" cy="12" r="10.43"/>
+        </g>
+      </g>
+      <path class="cls-4" d="M18.66.26c2.8,0,5.08,2.28,5.08,5.08v13.31c0,2.8-2.28,5.08-5.08,5.08H5.34c-2.8,0-5.08-2.28-5.08-5.08V5.34C.26,2.54,2.54.26,5.34.26h13.31M18.66.01H5.34C2.4.01.01,2.4.01,5.34v13.31c0,2.94,2.39,5.33,5.33,5.33h13.31c2.94,0,5.33-2.39,5.33-5.33V5.34C23.99,2.4,21.6.01,18.66.01h0Z"/>
+    </g>
+  </g>
+  <g id="star">
+    <path class="cls-3" d="M20.97,8.94l-5.82-1.21-2.94-5.16c-.21-.37-.74-.37-.95,0l-2.95,5.16-5.82,1.21c-.42.09-.58.59-.29.91l4,4.39-.65,5.91c-.05.42.38.74.77.56l5.42-2.44,5.42,2.44c.39.17.82-.14.77-.56l-.65-5.91,4-4.39c.29-.31.12-.82-.3-.91Z"/>
+  </g>
+</svg>

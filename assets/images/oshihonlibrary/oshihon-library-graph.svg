@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1657.14 954.71">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f29600;
+      }
+
+      .cls-3 {
+        fill: #b8b2a9;
+      }
+
+      .cls-4 {
+        font-size: 42px;
+      }
+
+      .cls-4, .cls-5, .cls-2, .cls-6 {
+        font-weight: 500;
+      }
+
+      .cls-4, .cls-2 {
+        font-family: Inter-Medium, Inter;
+        font-variation-settings: 'opsz' 14, 'wght' 500;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #787678;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-size: 47.97px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: KozGoPr6N-Medium-83pv-RKSJ-H, 'Kozuka Gothic Pr6N';
+      }
+
+      .cls-7 {
+        fill: none;
+        opacity: .6;
+        stroke: #4d3818;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 64px;
+      }
+
+      .cls-8 {
+        fill: #f8ca7f;
+      }
+
+      .cls-9 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        fill: #d9d3ca;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 40px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_6" data-name="レイヤー 6">
+    <line class="cls-7" x1="186.55" y1="88.77" x2="1612.66" y2="88.77"/>
+    <line class="cls-7" x1="186.55" y1="219.91" x2="1612.66" y2="219.91"/>
+    <line class="cls-7" x1="186.55" y1="351.05" x2="1612.66" y2="351.05"/>
+    <line class="cls-7" x1="186.55" y1="482.19" x2="1612.66" y2="482.19"/>
+    <line class="cls-7" x1="186.55" y1="613.33" x2="1612.66" y2="613.33"/>
+    <line class="cls-7" x1="186.55" y1="744.47" x2="1612.66" y2="744.47"/>
+    <line class="cls-7" x1="186.55" y1="875.61" x2="1612.66" y2="875.61"/>
+  </g>
+  <g id="_レイヤー_7" data-name="レイヤー 7">
+    <g>
+      <rect class="cls-3" x="208" y="595.55" width="171.64" height="280.07"/>
+      <path class="cls-18" d="M220,186.83h147.64c6.62,0,12,5.38,12,12v396.72h-171.64V198.83c0-6.62,5.38-12,12-12Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="409.93" y="618.16" width="171.64" height="257.46"/>
+      <path class="cls-18" d="M421.93,263.77h147.64c6.62,0,12,5.38,12,12v342.38h-171.64v-342.38c0-6.62,5.38-12,12-12Z"/>
+    </g>
+    <rect class="cls-3" x="602.93" y="625.88" width="176.96" height="249.73"/>
+    <path class="cls-18" d="M614.93,296.26h152.96c6.62,0,12,5.38,12,12v318.95h-176.96v-318.95c0-6.62,5.38-12,12-12Z"/>
+    <rect class="cls-3" x="813.79" y="652.61" width="171.64" height="223"/>
+    <path class="cls-18" d="M825.79,380.92h147.64c6.62,0,12,5.38,12,12v259.68h-171.64v-259.68c0-6.62,5.38-12,12-12Z"/>
+    <rect class="cls-3" x="1015.72" y="673.68" width="171.64" height="201.93"/>
+    <path class="cls-18" d="M1027.72,470.42h147.64c6.62,0,12,5.38,12,12v191.26h-171.64v-191.26c0-6.62,5.38-12,12-12Z"/>
+    <rect class="cls-3" x="1217.65" y="695.9" width="171.64" height="179.71"/>
+    <path class="cls-18" d="M1229.65,548.56h147.64c6.62,0,12,5.38,12,12v135.34h-171.64v-135.34c0-6.62,5.38-12,12-12Z"/>
+    <rect class="cls-1" x="1419.58" y="713.92" width="171.64" height="161.69"/>
+    <path class="cls-8" d="M1431.58,591.52h147.64c6.62,0,12,5.38,12,12v120.54h-171.64v-120.54c0-6.62,5.38-12,12-12Z"/>
+  </g>
+  <g id="_レイヤー_3" data-name="レイヤー 3">
+    <text class="cls-5" transform="translate(848.84 539.64)"><tspan x="0" y="0">雑誌</tspan></text>
+    <text class="cls-5" transform="translate(851.64 776.84)"><tspan x="0" y="0">書籍</tspan></text>
+    <text class="cls-4" transform="translate(263.48 928.65)"><tspan class="cls-19" x="0" y="0">9</tspan><tspan x="26.34" y="0">6</tspan></text>
+    <text class="cls-4" transform="translate(464.93 928.65)"><tspan class="cls-21" x="0" y="0">0</tspan><tspan x="27.08" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(668.14 928.65)"><tspan class="cls-17" x="0" y="0">0</tspan><tspan x="26.75" y="0">5</tspan></text>
+    <text class="cls-4" transform="translate(874.09 928.65)"><tspan class="cls-20" x="0" y="0">1</tspan><tspan x="17.34" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(1077.18 928.65)"><tspan class="cls-15" x="0" y="0">1</tspan><tspan x="17.25" y="0">5</tspan></text>
+    <text class="cls-4" transform="translate(1274.7 928.65)"><tspan class="cls-14" x="0" y="0">2</tspan><tspan x="24.71" y="0">0</tspan></text>
+    <text class="cls-2" transform="translate(1463.44 934.08)"><tspan class="cls-10" x="0" y="0">2</tspan><tspan x="36.63" y="0">4</tspan></text>
+    <text class="cls-6" transform="translate(0 35.2)"><tspan class="cls-9" x="0" y="0"> </tspan><tspan x="-11.04" y="0">（億円</tspan><tspan class="cls-9" x="108.95" y="0">）</tspan></text>
+    <text class="cls-6" transform="translate(1568.19 929.11)"><tspan class="cls-9" x="0" y="0"> </tspan><tspan x="-11.04" y="0">（年</tspan><tspan class="cls-9" x="68.95" y="0">）</tspan></text>
+    <text class="cls-4" transform="translate(21.29 100.14)"><tspan class="cls-16" x="0" y="0">3</tspan><tspan class="cls-12" x="25.87" y="0">0</tspan><tspan class="cls-11" x="51.33" y="0">,</tspan><tspan class="cls-21" x="62.62" y="0">00</tspan><tspan x="116.79" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(23.68 231.28)"><tspan class="cls-14" x="0" y="0">2</tspan><tspan class="cls-13" x="24.71" y="0">5</tspan><tspan class="cls-11" x="48.94" y="0">,</tspan><tspan class="cls-21" x="60.23" y="0">00</tspan><tspan x="114.39" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(22.45 362.42)"><tspan class="cls-14" x="0" y="0">2</tspan><tspan class="cls-12" x="24.71" y="0">0</tspan><tspan class="cls-11" x="50.17" y="0">,</tspan><tspan class="cls-21" x="61.46" y="0">00</tspan><tspan x="115.62" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(31.14 493.56)"><tspan class="cls-15" x="0" y="0">1</tspan><tspan class="cls-13" x="17.25" y="0">5</tspan><tspan class="cls-11" x="41.48" y="0">,</tspan><tspan class="cls-21" x="52.77" y="0">00</tspan><tspan x="106.93" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(29.81 624.7)"><tspan class="cls-20" x="0" y="0">1</tspan><tspan class="cls-12" x="17.34" y="0">0</tspan><tspan class="cls-11" x="42.81" y="0">,</tspan><tspan class="cls-21" x="54.09" y="0">00</tspan><tspan x="108.26" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(48.39 755.84)"><tspan class="cls-13" x="0" y="0">5</tspan><tspan class="cls-11" x="24.24" y="0">,</tspan><tspan class="cls-21" x="35.52" y="0">00</tspan><tspan x="89.69" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(138.07 886.98)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+</svg>

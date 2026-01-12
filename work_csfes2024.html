@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazuhide Usami Portfolio">
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="https://kazuhide.main.jp/usamiportfolio/">
+    <meta property="og:title" content="Kazuhide Usami Portfolio">
+    <meta property="og:description" content="Kazuhide UsamiのPortfolioサイトです。">
+    <meta property="og:url" content="https://kazuhide.main.jp/usamiportfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kazuhide Usami Portfolio">
+    <meta name="twitter:title" content="Kazuhide UsamiのPortfolioサイトです。">
+    <meta name="twitter:description" content="Kazuhide UsamiのPortfolioサイトです。">
+    <link rel="icon" href="https://kazuhide.main.jp/usamiportfolio/favicon.ico" sizes="32x32">
+    <link rel="icon" href="https://kazuhide.main.jp/usamiportfolio/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://kazuhide.main.jp/usamiportfolio/apple-touch-icon.png">
+    <link rel="manifest" href="https://kazuhide.main.jp/usamiportfolio/manifest.webmanifest">
+    <title>Kazuhide Usami Portfolio 2025</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zgu5cal.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <style>
+        :root {
+            --color-work-theme: #1C358D;
+        }
+
+        .slider__wrapper {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .slider__container {
+            display: flex;
+            font-size: var(--font-size-Heading-XL);
+            gap: 2em;
+            animation: scroll-left var(--scroll-speed, 60s) linear infinite;
+            width: fit-content;
+        }
+
+        .slider__content {
+            display: flex;
+            gap: 2em;
+        }
+
+        .slider__content li {
+            font-family: var(--en-font);
+            letter-spacing: 0.14em;
+            background: linear-gradient(90deg, var(--My-Blue) 0%, var(--My-Orange) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            white-space: nowrap;
+        }
+
+        @keyframes scroll-left {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(calc(-1 * var(--scroll-width)));
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/works.css">
+</head>
+
+<body>
+    <div class="mouse"></div>
+    <header>
+        <div class="openbtn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+            <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                <ul>
+                    <li><a href="index.html">Top</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="work-hero">
+            <picture class="work-hero__main-visual pc-img">
+                <source srcset="assets/images/csfes2024/csfes2024-hero.avif" type="image/avif">
+                <source srcset="assets/images/csfes2024/csfes2024-hero.webp" type="image/webp">
+                <img src="assets/images/csfes2024/csfes2024-hero.png" alt="idas ひらめきを作るアプリ">
+            </picture>
+            <picture class="work-hero__main-visual sp-img">
+                <source srcset="assets/images/csfes2024/csfes2024_pj.avif" type="image/avif">
+                <source srcset="assets/images/csfes2024/csfes2024_pj.webp" type="image/webp">
+                <img src="assets/images/csfes2024/csfes2024_pj.png" alt="idas ひらめきを作るアプリ">
+            </picture>
+            <div class="basic-info">
+                <div class="basic-info__tittle-container">
+                    <h2>大学祭2024 Webサイト 星のみちびき</h2>
+                    <span class="basic-info__label">Web</span>
+                </div>
+                <div class="basic-info__details">
+                    <p class="tools"><span class="tools__label">制作ツール</span><i class="html"></i><i class="css"></i><i
+                            class="js"></i><i class="figma"></i><i class="illustrator"></i><i class="photoshop"></i>
+                    </p>
+                    <p class="production-time"><span class="production-time__label">制作期間</span><span>2025</span><span
+                            class="separator">/</span>
+                        <span>8 - 10</span><span class="separator">
+                    </p>
+                    <p class="placement"><span>自主制作</span><span class="separator">/</span><span>グループ（2人）</span>
+                    </p>
+                    <p class="placement"><span>役割</span><span
+                            class="separator"></span><span>デザインカンプ・コーディング・アニメーション</span>
+                    </p>
+                </div>
+                <p class="basic-info__overview">
+                    デザインカンプ・アニメーション・コーディングを中心に携わりました。特に工夫した設計はファーストビューで、直帰を避け、印象に残るようにこだわって制作しました。
+                    また、背景に映る赤いメテオはランダムに出現させており、コーディングだからこそできる表現を追求しました。
+                </p>
+            </div>
+        </section>
+        <section class="basic">
+            <h3 class="work-heading">Concept</h3>
+            <h4>星のみちびき</h4>
+            <p class="u-theme-color">星は創る。星は魅せる。星はつながる。星はもっと輝く。<br>星は君たちを未だ見ぬ世界へとつれていってくれる。<br>一緒に行こう　星のみちびきのままに！</p>
+            <p>大学祭のメインビジュアルを魅せる場面はWebサイト以外の媒体にもありますが、動きやインタラクションをつけれる媒体はWebサイトだけです。アニメーションにこだわり、「星のみちびき」の世界へとみちびくWebサイトを目指しました。
+            </p>
+        </section>
+        <section class="process">
+            <h3 class="work-heading">Process</h3>
+            <ol class="process-chart">
+                <li>
+                    コンセプトの定義・要件定義
+                </li>
+                <li>
+                    UI設計（ワイヤーフレーム　デザインカンプ）
+                </li>
+                <li>
+                    メンバーとチェック・ブラッシュアップ
+                </li>
+                <li>
+                    コーディング・リリース
+                </li>
+            </ol>
+        </section>
+        <section>
+            <picture class="mockup">
+                <source srcset="assets/images/csfes2024/csfes2024-mockup.avif" type="image/avif">
+                <source srcset="assets/images/csfes2024/csfes2024-mockup.webp" type="image/webp">
+                <img src="assets/images/csfes2024/csfes2024-mockup.png" alt="CS祭サイトのモックアップ">
+            </picture>
+            <a href="projects/csfes2024/index.html" target="_blank" class="read-more__button">
+                <span class="read-more__button__text">サイトを閲覧する</span><span><img src="assets/images/common/chevron.svg"
+                        alt="" class="read-more__button__chevron"></span>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <div class="slider__wrapper">
+            <div class="slider__container">
+                <ul class="slider__content">
+                    <li>Thanks</li>
+                    <li>Thanks </li>
+                    <li>Thanks </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-logo"><img src="assets/images/common/logo.webp" alt="Portfolio"></p>
+        <a href="index.html" class="read-more__button">
+            <span class="read-more__button__text">Topに戻る</span><span class="read-more__button__chevron"></span>
+        </a>
+        <p class="copyright">Copyright &copy; 2025 Kazuhide Usami</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script>
+
+        window.addEventListener('load', () => {
+            const sliderWraps = document.querySelectorAll('.slider__container');
+
+            sliderWraps.forEach((wrap) => {
+                const slider = wrap.querySelector('.slider__content');
+
+                if (!slider) return; // 念のため
+
+                // 複製して追加
+                const clone = slider.cloneNode(true);
+                wrap.appendChild(clone);
+
+                // 幅を取得してCSS変数で設定
+                const totalWidth = slider.offsetWidth;
+                wrap.style.setProperty('--scroll-width', `${totalWidth}px`);
+            });
+        });
+    </script>
+</body>
+
+</html>

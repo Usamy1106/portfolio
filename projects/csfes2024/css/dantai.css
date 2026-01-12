@@ -1,0 +1,8 @@
+.section_container{
+    width: 40vw;
+}
+@media only screen and (max-width: 430px) {
+    .section_container{
+        width: 90vw;
+    }
+}

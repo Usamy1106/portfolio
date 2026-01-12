@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+.openbtn span {
+    background-color: var(--My-Orange);
+}
+
+.about {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.string {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 30vw;
+}
+
+.page-tittle {
+    position: absolute;
+    top: 420px;
+    left: -6vw;
+    font-family: var(--en-font);
+    font-size: var(--font-size-Heading-XL);
+    letter-spacing: 0.24em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    rotate: 270deg;
+    background: linear-gradient(90deg, var(--My-Blue) 0%, var(--My-Orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    animation: Appear 1.2s ease-out .6s forwards;
+}
+
+@keyframes Appear {
+    0% {
+        opacity: 0;
+        transform: translateX(1.4em);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.about__flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 840px;
+    width: 43vw;
+    margin: 0 auto;
+}
+
+.portrait {
+    display: block;
+    width: 240px;
+}
+
+
+.university {
+    font-size: var(--font-size-S);
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.affiliation {
+    font-size: var(--font-size-S);
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.name {
+    font-size: var(--font-size-Heading-R);
+    letter-spacing: 0.28em;
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+}
+
+.about__info-container {
+    margin-left: 1em;
+}
+
+.about__info-container__text {
+    font-size: var(--font-size-R);
+    margin-bottom: 1em;
+}
+
+.tagline {
+    font-size: var(--font-size-M);
+    font-weight: 500;
+    background: linear-gradient(90deg, var(--My-Blue) 0%, var(--My-Orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#policy {
+    display: flex;
+    justify-content: space-between;
+    width: 66vw;
+    margin: 0 auto;
+}
+
+.policy-container {
+    width: 28vw;
+    overflow: visible;
+}
+
+.policy-container__image {
+    text-align: center;
+    height: 22em;
+}
+
+.policy-container__heading {
+    background: linear-gradient(90deg, var(--My-Blue) 0%, var(--My-Orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--en-font);
+    font-size: var(--font-size-Heading-M);
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.1em;
+    margin: 0.8em auto 0.4em;
+}
+
+.policy-container__text {
+    font-size: var(--font-size-R);
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.timeline {
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin: 400px auto 0;
+}
+
+.timeline__days-container {
+    display: flex;
+    align-items: center;
+}
+
+.days {
+    display: block;
+    width: 8em;
+    margin-right: 1.5em;
+    margin-bottom: 20px;
+    font-size: var(--font-size-S);
+    letter-spacing: 0.24em;
+    white-space: nowrap;
+}
+
+.days::before {
+    content: "";
+    display: inline-block;
+    background-image: url('../images/common/point_large_star.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.25em;
+    aspect-ratio: 1 / 1;
+}
+
+
+.timeline li {
+    /*線の起点とするためrelativeを設定*/
+    position: relative;
+    list-style: none;
+    padding: 0 0 20px 0;
+    font-size: var(--font-size-S);
+}
+
+.timeline dl {
+    margin: 0 0 20px 3em;
+}
+
+.timeline dd,
+.timeline dt {
+    letter-spacing: 0.24em;
+    display: inline;
+    margin-right: 1em;
+}
+
+.timeline dt {
+    font-family: var(--en-font)
+}
+
+/*絶対配置で線を設定*/
+.border-line {
+    /*線の位置*/
+    position: absolute;
+    left: 0.7em;
+    top: 0;
+    width: 2px;
+    /*線の太さ*/
+    height: 0;
+    /*はじめは高さを0に*/
+    background: #ccc;
+}
+
+/*タイムラインの見出し横の丸の位置と形状*/
+.timeline li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/common/point_star.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.5em;
+    margin-right: 1em;
+    aspect-ratio: 1 / 1;
+}
+
+.timeline li:last-child {
+    padding: 0;
+}
+
+#myCommnity {
+    margin: 400px 0;
+}
+
+.community-container {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    gap: calc((70vw - 50vw) / 3);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.community-container__content {
+    width: calc((50vw / 3));
+}
+
+.community-container__content h4 {
+    background: linear-gradient(90deg, var(--My-Blue) 0%, var(--My-Orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: var(--font-size-Heading-S);
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-align: center;
+    margin-bottom: 0.75em;
+}
+
+.community-container__content p {
+    font-size: var(--font-size-R);
+    text-align: left;
+}
+
+
+@media screen and (max-width:1279px) {
+
+    .page-tittle {
+        left: -18vw;
+    }
+
+    .string {
+        width: 60svw;
+    }
+
+    .portrait {
+        position: absolute;
+        /* display: block; */
+        width: 180px;
+        top: 0;
+        left: 10svw;
+    }
+
+    #policy {
+        width: 86vw;
+    }
+
+    .policy-container {
+        width: calc((86svw / 2) - 4svw);
+    }
+
+    .policy-container__heading {
+        white-space: nowrap;
+    }
+
+    .policy-container__image {
+        height: 14em;
+    }
+
+    .timeline {
+        width: 78vw;
+        margin: 200px auto 0;
+    }
+
+    #myCommnity {
+        margin: 200px 0;
+    }
+
+    .community-container__content {
+        width: calc((86vw / 2) - 10svw);
+    }
+
+    .community-container {
+        width: 86vw;
+        margin: 0 auto;
+        display: flex;
+        gap: 10svw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page-tittle {
+        top: 51svh;
+        left: -44vw;
+    }
+
+    .string {
+        width: 100svw;
+    }
+
+    .about-area {
+        height: 50vh;
+    }
+
+    .portrait {
+        width: 160px;
+        top: 5svh;
+        left: 10svw;
+    }
+
+    .about__flex-container {
+        width: 86svw;
+    }
+
+    .about__info-container {
+        margin-left: 22svw;
+        margin-top: 22svh;
+    }
+
+    #policy {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 86vw;
+    }
+
+    .policy-container {
+        width: 86svw;
+        margin-bottom: 60px;
+    }
+
+    .policy-container__image {
+        height: 12em;
+    }
+
+    .community-container {
+        flex-direction: column;
+    }
+
+    .community-container__content {
+        width: 86svw;
+        margin-bottom: 60px;
+    }
+}

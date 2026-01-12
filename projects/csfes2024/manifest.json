@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "HackerWeb",
+    "short_name": "HackerWeb",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "読みやすいハッカーニュースアプリです。",
+    "icons": [
+      {
+        "src": "images/touch/homescreen48.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ]
+  }

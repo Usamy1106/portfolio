@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 341.69 20.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_新規グラデーションスウォッチ_2);
+      }
+    </style>
+    <linearGradient id="_新規グラデーションスウォッチ_2" data-name="新規グラデーションスウォッチ 2" x1="-2225.36" y1="1480.34" x2="-1883.67" y2="1480.34" gradientTransform="translate(2225.36 -1470.01)" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#c94255" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#c94255" stop-opacity=".12"/>
+      <stop offset=".24" stop-color="#c94255" stop-opacity=".33"/>
+      <stop offset=".29" stop-color="#c94255" stop-opacity=".48"/>
+      <stop offset=".33" stop-color="#c94255" stop-opacity=".57"/>
+      <stop offset=".36" stop-color="#c94255" stop-opacity=".6"/>
+      <stop offset=".4" stop-color="#c94255" stop-opacity=".71"/>
+      <stop offset=".45" stop-color="#c94255" stop-opacity=".81"/>
+      <stop offset=".52" stop-color="#c94255" stop-opacity=".9"/>
+      <stop offset=".59" stop-color="#c94255" stop-opacity=".96"/>
+      <stop offset=".7" stop-color="#c94255" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#c94255"/>
+    </linearGradient>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <rect class="cls-1" x="0" y="0" width="341.69" height="20.67" rx="10.33" ry="10.33" transform="translate(341.69 20.67) rotate(180)"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+.flex_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 10em;
+}
+
+p{
+    margin-bottom: 1.5em;
+}
+
+.event_img img{
+    width: 20vw;
+}
+
+@media only screen and (max-width: 430px) {
+    .flex_container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        column-gap: 0;
+        row-gap: 2em;
+    }
+
+    .event_img img{
+        width: 80vw;
+    }
+}

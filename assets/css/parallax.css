@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.c-parallax-section {
+    position: relative;
+    width: 100%;
+}
+
+.c-parallax__sticky {
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-parallax-section__inner {
+    display: flex;
+    height: 100%;
+    /* 1画面分を基準にする */
+    width: 100%;
+}
+
+/* 画像エリアの調整 */
+.c-parallax-section__visual {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* 画面いっぱいの高さを確保 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    translate: 12%;
+}
+
+.c-parallax-section__image-wrapper {
+    position: relative;
+    height: 66svh;
+    aspect-ratio: 16 / 9;
+    width: auto;
+}
+
+.c-parallax-section__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.c-parallax-section__image.is-active {
+    opacity: 1;
+}
+
+.c-parallax-section__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* 画像が欠けないように枠内に収める */
+}
+
+.c-parallax-section__content {
+    display: grid;
+    place-items: center;
+    /* 中央配置（任意） */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.c-parallax-section__item {
+    grid-area: 1 / 1;
+    /* 全てのアイテムを同じグリッドセルに重ねる */
+    opacity: 0;
+    /* JSで制御するが初期値として設定 */
+    width: 100%;
+    max-width: 600px;
+    /* デザインに合わせて調整 */
+    pointer-events: none;
+    /* 重なっている要素が邪魔しないように */
+}
+
+.c-parallax-section__item.is-active {
+    pointer-events: auto;
+}
+
+.c-parallax-section__title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.c-parallax-section .c-point {
+    width: 26em;
+    margin-right: 12em;
+}
+
+
+@media (max-width: 1279px) {
+    .c-parallax-section__visual {
+        translate: 0;
+    }
+
+    .c-parallax-section__image-wrapper {
+        height: 62svh;
+    }
+
+    .c-parallax-section__content {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .c-parallax-section__content {
+        place-items: start;
+    }
+
+    .c-parallax-section__inner {
+        flex-direction: column;
+    }
+
+    .c-parallax-section__visual {
+        height: 60svh;
+        overflow: visible;
+        translate: 0;
+        margin-bottom: 4svh;
+    }
+
+    .c-parallax-section__image-wrapper {
+        height: 100%;
+    }
+
+    .c-point-container {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .c-parallax-section__content {
+        width: 100%;
+    }
+
+    .c-parallax-section .c-point {
+        width: 100%;
+        margin-right: 0;
+    }
+}

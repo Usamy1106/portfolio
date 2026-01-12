@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+.c-ui,
+.p-iteration {
+    margin: 20svh 0;
+}
+
+/*Iteration*/
+.p-iteration__text {
+    font-size: var(--font-size-S);
+    width: 24em;
+    margin-right: 80px;
+    padding: 3em 4em;
+    background-color: var(--color-Bg-Surface);
+    border-radius: 12px;
+}
+
+.p-iteration__version {
+    font-size: var(--font-size-Heading-XS);
+    color: var(--color-Gray);
+    margin-bottom: 1.4em;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 0.24em;
+    max-width: 800px;
+    white-space: nowrap;
+}
+
+.c-horizontal-scroll__inner .p-iteration__container:last-child .p-iteration__version {
+    font-size: var(--font-size-Heading-S);
+    color: var(--color-work-theme);
+}
+
+.p-iteration__list {
+    font-size: var(--font-size-S);
+    margin-top: 3em;
+}
+
+.p-iteration__item {
+    color: var(--color-Text);
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    list-style: disc;
+}
+
+.p-iteration__item::marker {
+    color: var(--color-work-theme);
+}
+
+.p-iteration__note {
+    display: block;
+    color: var(--color-Gray);
+}
+
+.p-iteration__container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*UI-ditail*/
+.p-ui-detail {
+    width: 60svw;
+    margin: var(--section-margin-bottom) auto;
+    display: flex;
+    font-size: var(--font-size-Heading-S);
+    gap: 4svw;
+}
+
+.p-spec-font {
+    width: calc(100% / 2 - 2svw);
+}
+
+.p-spec__visual {
+    padding: 2em;
+    background-color: var(--color-Bg-Surface);
+    border-radius: 24px;
+    filter: drop-shadow(0 0px 3px rgba(2, 4, 10, .1));
+}
+
+/*Font Color Spec*/
+.p-spec-font .c-description,
+.p-spec-color .c-description {
+    margin-bottom: 4em;
+}
+
+.p-spec-color {
+    width: calc(100% / 2 - 2svw);
+}
+
+.p-spec-color__color-palette {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-spec-color__color-item {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-color: var(--color-Bg-Surface);
+    border-radius: 12px;
+    font-size: var(--font-size-S);
+    padding: 1.2em;
+    width: calc(100% / 3 - 1em);
+    height: calc(100% / 3 - 1em);
+    aspect-ratio: 1 / 1;
+    filter: drop-shadow(0 0px 3px rgba(2, 4, 10, .1));
+}
+
+.p-spec-color__color-visual {
+    position: absolute;
+    font-size: var(--font-size-Heading-R);
+    top: .8svw;
+    left: .8svw;
+    width: 1em;
+}
+
+.p-spec-color__color-name {
+    font-family: var(--en-font);
+    font-size: var(--font-size-Heading-S);
+    line-height: 1.25;
+    color: var(--color-Text);
+}
+
+.p-spec-color__color-code {
+    font-family: var(--en-font);
+    font-size: var(--font-size-Heading-XS);
+    color: var(--color-Gray);
+}
+
+@media (max-width: 1279px) {
+    .c-transition-diagram .c-point {
+        width: 32%;
+        margin: 0;
+    }
+
+    /*Iteration*/
+    .p-iteration__text {
+        width: 28em;
+        margin-right: 0;
+        margin-bottom: 2em;
+        padding: 3em 4em;
+    }
+
+    .p-iteration__list {
+        margin-top: 1svh;
+    }
+
+    .p-iteration .c-horizontal-scroll__visual img {
+        height: 58svh;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .p-iteration .c-horizontal-scroll__visual.u-narrow img {
+        width: 80svw;
+        height: auto;
+
+    }
+
+    /*UI Detail*/
+    .p-ui-detail {
+        width: 80svw;
+    }
+}
+
+@media (max-width: 767px) {
+    .c-transition-diagram .c-point {
+        width: 100%;
+        margin-bottom: 2svh;
+    }
+
+    .p-ui-detail {
+        display: block;
+        width: 100%;
+        padding: 0 25px;
+        margin: var(--section-margin-bottom) auto;
+    }
+
+    .p-spec-font,
+    .p-spec-color {
+        width: 100%;
+    }
+
+    .p-spec-color__text {
+        margin-bottom: 1em;
+    }
+
+    .p-spec-color__color-visual {
+        font-size: var(--font-size-Heading-S);
+    }
+}
